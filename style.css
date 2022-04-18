@@ -51,6 +51,11 @@ body{
   
   
 }
+.left-section-button:hover{
+  background:white;
+  color:#1e70ff;
+  transition:.3s;
+}
 @media only screen and (max-width: 1000px) {
  
  .header-box{
