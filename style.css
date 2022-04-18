@@ -26,6 +26,21 @@ body{
 .lander-left-section{
   padding:0px;
   transform: translate(100px, 0px);
+  display:flex;
+  justify-content:left;
+  align-items:center;
+  text-align:left;
+  flex-direction:row;
+}
+.left-section-p{
+  display:flex;
+  justify-content:left;
+  text-align:left;
+  flex-direction:column;
+}
+.lander-logo{
+  width:250px;
+  margin:50px;
 }
 .name{
    font-size:60px;
@@ -44,13 +59,18 @@ body{
   background:#1e70ff;
   padding:15px 20px;
   border-radius:10px;
+  width:100px;
   border:none;
   font-size:15px;
   color:white;
   font-weight:bold;
-  
-  
+    transition:.3s;
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  flex-direction:column;
 }
+
 .left-section-button:hover{
   background:white;
   color:#1e70ff;
@@ -85,4 +105,5 @@ body{
 }
 
 }
+
 
