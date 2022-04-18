@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
 
 
+
 html{
   
 }
 body{
   background:black;
     font-family:DM Sans;
+    height:100%;
+    overflow:hidden;
 }
 
 
@@ -51,7 +54,6 @@ body{
   position:absolute;
   margin:-8px;
   filter:brightness(50%);
-  margin-top:-220px;
 }
 
 .lander-container{
