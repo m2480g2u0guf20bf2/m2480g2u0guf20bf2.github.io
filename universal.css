@@ -12,6 +12,7 @@ a{
   text-decoration:none;
 }
 
+
 .header-box{
   width:100vw;
   height:78px;
@@ -22,16 +23,24 @@ a{
   display: -ms-flexbox;
   display: flex;
   margin:-8px;
-  justify-content:right;
 }
-
+.header-favicon{
+  width:50vw;
+  display:flex;
+  align-items:center;
+}
+.header-favicon > img{
+  height:50px;
+  margin:0px 20px;
+}
 .header-button-group{
   display:flex;
-  justify-content:center;
+  justify-content:right;
   align-items:center;
-  text-align:center;
-  background:blue;
+  text-align:right;
   height:70px;
+  width:50vw;
+  background:white;
 }
 .header-button{
   display:flex;
@@ -41,7 +50,7 @@ a{
   height:100%;
   width:120px;
   background:white;
-  font-size:17px;
+  font-size:20px;
   font-weight:bold;
   color:#1e70ff;
   border:none;
