@@ -1,3 +1,5 @@
+@import url("global.css");
+
 .about-container{
    background:linear-gradient(to right,#e8e8e8, lightgrey);
   width:100vw;
