@@ -14,7 +14,11 @@ body{
   width:100vw;
   height:78px;
   background:white;
-  display:flex;
+ display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
   margin:-8px;
   justify-content:right;
 }
@@ -40,14 +44,22 @@ body{
   border:none;
    transition:0.3s;
 }
+.background-vid{
+  width:100vw;
+  height:auto;
+  z-index:-1;
+  position:absolute;
+  margin:-8px;
+  filter:brightness(50%);
+}
 
 .lander-container{
-   background:linear-gradient(to top right,#e8e8e8, lightgrey);
   width:100vw;
   margin:-8px;
   height:calc(100vh - 70px);
   display:flex;
   align-items:center;
+    z-index:-2;
 }
 .lander-left-section{
   padding:0px;
