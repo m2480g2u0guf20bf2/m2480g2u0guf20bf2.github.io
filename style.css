@@ -1,52 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
-
-
-
-html{
-  
-}
 body{
-  background:black;
-    font-family:DM Sans;
     height:100%;
     overflow:hidden;
 }
 
 
-.header-box{
-  width:100vw;
-  height:78px;
-  background:white;
- display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin:-8px;
-  justify-content:right;
-}
-.header-button-group{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-  background:blue;
-  height:70px;
-}
-.header-button{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-  height:100%;
-  width:120px;
-  background:white;
-  font-size:17px;
-  font-weight:bold;
-  color:#1e70ff;
-  border:none;
-   transition:0.3s;
-}
 .background-vid{
   width:100vw;
   height:auto;
@@ -121,3 +78,4 @@ body{
 }
 
 }
+
