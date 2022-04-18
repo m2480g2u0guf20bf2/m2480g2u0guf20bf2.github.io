@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+html{
+  
+}
+body{
+  background:linear-gradient(to right,#e8e8e8, lightgrey);;
+    font-family:DM Sans;
+}
+
+
+.header-box{
+  width:100vw;
+  height:78px;
+  background:white;
+ display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin:-8px;
+  justify-content:right;
+}
+.header-button-group{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background:blue;
+  height:70px;
+}
+.header-button{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  height:100%;
+  width:120px;
+  background:white;
+  font-size:17px;
+  font-weight:bold;
+  color:#1e70ff;
+  border:none;
+   transition:0.3s;
+}
+
+.about-container{
+   background:linear-gradient(to right,#e8e8e8, lightgrey);
+  width:100vw;
+  margin:-8px;
+  height:auto;
+  padding:50px 0px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+}
+.about-box{
+  width:50vw;
+  height:auto;
+  text-align:left;
+  margin:40px;
+}
+.about-box-centered{
+   width:50vw;
+  height:auto;
+  text-align:center;
+}
+.title{
+  font-size:50px;
+  font-weight:bold;
+  letter-spacing:1px;
+  color:#242424;
+}
+.about-p{
+  font-size:20px;
+  margin:20px;
+  text-align:left;
+  margin:10px 0px;
+    color:#242424;
+}
+.about-p-centered{
+    font-size:22px;
+  text-align:center;
+  margin:10px 0px;
+    color:#242424;
+}
+.what-i-do{
+  width:50vw;
+  height:auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-wrap:wrap;
+}
+.what-i-do-item{
+  height:100%;
+  width:auto;
+  margin:20px 20px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-direction:column;
+}
+.what-i-do-item-title{
+  font-size:25px;
+  color:#242424;
+}
+.fa-solid{
+  font-size:60px;
+  margin:10px;
+  color:#1e70ff;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+ 
+ .header-box{
+  width:100vw;
+  height:78px;
+  background:white;
+  display:flex;
+  margin:-8px;
+  justify-content:center;
+}
+
+ .about-container{
+   display:flex;
+  justify-content:center;
+  align-items:center;
+}
+ 
+.header-button{
+  width:90px;
+}
+
+}
