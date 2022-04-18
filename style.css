@@ -51,6 +51,7 @@ body{
   position:absolute;
   margin:-8px;
   filter:brightness(50%);
+  margin-top:-220px;
 }
 
 .lander-container{
