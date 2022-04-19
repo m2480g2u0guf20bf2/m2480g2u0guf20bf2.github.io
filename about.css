@@ -45,6 +45,8 @@
   align-items:center;
   text-align:center;
   flex-wrap:wrap;
+     animation:fadeInUp;
+ animation-duration:2s;
 }
 .what-i-do-item{
   height:100%;
