@@ -43,7 +43,7 @@ body{
   font-weight:bold;
   margin:-10px 0px;
   color:#1e70ff;
-    animation: bounceInLeft; 
+    animation:backInLeft;
   animation-duration: 2s;
 }
 .job{
@@ -54,7 +54,6 @@ body{
   margin-top:20px;
     animation:backInLeft;
     animation-duration:2s;
-    animation-delay:0.5s;
 }
 .left-section-button{
   background:#1e70ff;
@@ -73,7 +72,6 @@ body{
   text-align:center;
     animation:backInLeft;
     animation-duration:2s;
-    animation-delay:1s;
 }
 .left-section-button-container{
   display:flex;
