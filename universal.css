@@ -59,6 +59,20 @@ a{
   border:none;
    transition:0.3s;
 }
+.title{
+  font-size:50px;
+  font-weight:bold;
+  letter-spacing:1px;
+  color:#242424;
+  animation:animate__fadeInLeft;
+  animation-duration:2s;
+}
+
+
+
+
+
+
 @media only screen and (max-width: 1000px) {
   
   
