@@ -1,15 +1,11 @@
-
-
 .about-container{
-   background:linear-gradient(to right,#e8e8e8, lightgrey);
   width:100vw;
   margin:-8px;
   height:auto;
-  padding:50px 0px;
   display:flex;
   align-items:center;
-  justify-content:center;
   flex-direction:column;
+    z-index:-2;
 }
 .about-box{
   width:50vw;
