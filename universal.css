@@ -64,7 +64,7 @@ a{
   font-weight:bold;
   letter-spacing:1px;
   color:#242424;
-  animation:animate__fadeInLeft;
+  animation:fadeInLeft;
   animation-duration:2s;
 }
 
