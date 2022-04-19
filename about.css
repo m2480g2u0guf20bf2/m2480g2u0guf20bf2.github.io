@@ -55,6 +55,9 @@
   align-items:center;
   text-align:center;
   flex-direction:column;
+  border-radius:10000000000000px;
+  padding:20px;
+  border:2px solid blue;
 }
 .what-i-do-item-title{
   font-size:25px;
