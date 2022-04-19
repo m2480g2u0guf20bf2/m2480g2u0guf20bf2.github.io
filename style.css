@@ -44,7 +44,7 @@ body{
   margin:-10px 0px;
   color:#1e70ff;
     animation:bounce;
-  animation-duration: 0.5s;
+  animation-duration: 2s;
 }
 .job{
     font-size:30px;
