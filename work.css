@@ -7,12 +7,6 @@
   flex-direction:column;
     z-index:-2;
 }
-.title2{
-  font-size:50px;
-  font-weight:bold;
-  letter-spacing:1px;
-  color:#242424;
-}
 .work-p-box{
   width:50vw;
   height:auto;
