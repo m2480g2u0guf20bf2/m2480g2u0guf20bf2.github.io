@@ -1,19 +1,17 @@
 .work-text-container{
-   background:linear-gradient(to right,#e8e8e8, lightgrey);
-  width:100vw;
+    width:100vw;
   margin:-8px;
   height:auto;
-  padding:50px 0px;
   display:flex;
   align-items:center;
-  justify-content:center;
   flex-direction:column;
+    z-index:-2;
 }
 .work-p-box{
   width:50vw;
   height:auto;
   text-align:left;
-  margin:40px;
+  margin:40px 0px;
 }
 .title{
   font-size:50px;
