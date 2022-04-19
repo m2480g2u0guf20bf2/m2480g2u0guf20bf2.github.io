@@ -27,6 +27,8 @@
   text-align:center;
   flex-wrap:wrap;
   width:60vw;
+     animation:fadeInUp;
+ animation-duration:2s;
 }
 .design-box{
   width:200px;
