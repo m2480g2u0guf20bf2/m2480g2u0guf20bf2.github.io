@@ -30,6 +30,8 @@ a{
   width:50vw;
   display:flex;
   align-items:center;
+  animation:bounceInDown;
+   animation-duration:2s;
 }
 .header-favicon > img{
   height:50px;
