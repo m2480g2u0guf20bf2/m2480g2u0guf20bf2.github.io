@@ -43,7 +43,7 @@ body{
   font-weight:bold;
   margin:-10px 0px;
   color:#1e70ff;
-    animation:backInLeft;
+    animation:bounceIn;
   animation-duration: 2s;
 }
 .job{
@@ -52,7 +52,7 @@ body{
   color:white;
   margin:30px 0px;
   margin-top:20px;
-    animation:backInLeft;
+    animation:bounceIn;
     animation-duration:2s;
 }
 .left-section-button{
@@ -70,7 +70,7 @@ body{
   flex-direction:column;
   align-items:center;
   text-align:center;
-    animation:backInLeft;
+    animation:bounceIn;
     animation-duration:2s;
 }
 .left-section-button-container{
