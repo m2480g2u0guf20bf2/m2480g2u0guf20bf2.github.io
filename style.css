@@ -43,7 +43,8 @@ body{
   font-weight:bold;
   margin:-10px 0px;
   color:#1e70ff;
-     animation: bounce;
+    animation: bounce; 
+  animation-duration: 2s;
 }
 .job{
     font-size:30px;
