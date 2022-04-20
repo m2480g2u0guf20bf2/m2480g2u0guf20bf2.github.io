@@ -8,6 +8,7 @@
 body{
    background:lightgrey;
     font-family:DM Sans;
+       width:100vw;
 }
 a{
   background:none;
