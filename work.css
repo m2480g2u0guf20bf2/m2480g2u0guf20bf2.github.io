@@ -8,30 +8,69 @@
  animation:fadeInUp;
  animation-duration:2s;
 }
-.design-box{
-  width:200px;
-  height:200px;
-  background:blue;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-  margin:10px;
-  background-size:cover;
-  border-radius:10px;
 
+
+
+
+
+
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style:none;
 }
-.design-name{
-  width:200px;
-  height:50px;
-  background-image:url('https://raw.githubusercontent.com/Awes0meDev/code/gh-pages/thumbnail-dark.jpeg');
-  background-size:cover;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-  margin-top:150px;
-  color:white;
-    border-bottom-left-radius:10px;
-      border-bottom-right-radius:10px;
+
+li {
+  height: 40vh;
+  flex-grow: 1;
+}
+
+li:last-child {
+  // There's no science in using "10" here. In all my testing, this delivered the best results.
+  flex-grow: 10;
+}
+
+.photo {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  border:10px solid lightgrey;
+}
+
+// ADVANCED
+
+// Portrait
+
+@media (max-aspect-ratio: 1/1) {
+  li {
+    height: 30vh;
+  }
+}
+
+// Short screens
+
+@media (max-height: 480px) {
+  li {
+    height: 80vh;
+  }
+}
+
+// Smaller screens in portrait
+
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+  ul {
+    flex-direction: row;
+  }
+
+  li {
+    height: auto;
+    width: 100%;
+  }
+  .photo {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
+  }
 }
