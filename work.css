@@ -38,10 +38,6 @@ li:last-child {
   vertical-align: bottom;
   border:10px solid lightgrey;
 }
-.photo:hover{
-  width:90vw;
-  height:90vh;
-  z-index:20;
 
 // ADVANCED
 
