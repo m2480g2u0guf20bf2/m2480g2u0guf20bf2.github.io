@@ -6,7 +6,7 @@
 
 
 body{
-   background:lightgrey;
+   background:#f5f5f5;
     font-family:DM Sans;
     width:100vw;
     max-width: 100%;
@@ -21,7 +21,7 @@ a{
 .header-box{
   width:100vw;
   height:78px;
-  background:white;
+  background: #ffffff;
  display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
