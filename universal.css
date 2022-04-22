@@ -41,7 +41,9 @@ a{
   margin:0px 20px;
 }
 .header-button-group{
+  display: -webkit-flex;
   display:flex;
+ -webkit-justify-content:right;
   justify-content:right;
   align-items:center;
   text-align:right;
@@ -119,7 +121,8 @@ a{
 
 
 .containerbottom{
-  background-color:white;height:auto;width: 100vw;position: relative; display: flex;flex-direction:row;align-items: center;text-align:center;margin:-8px;bottom:0px;}
+      background-color:white;height:auto;width: 100vw;position: relative; display: flex;flex-direction:row;align-items: center;text-align:center;margin:-8px;bottom:0px;}
+}
   
 
 .footer {position: relative;font-size:calc(10px + 0.3vw);font-weight:bold;color:lightgrey;width:50vw;padding:20px 0px;text-align:left;}
