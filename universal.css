@@ -78,9 +78,13 @@ a{
   margin:40px 0px;
 }
 .section-box-centered{
-  width:50vw;
+  width:100vw;
   height:auto;
   text-align:center;
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  justify-content:center;
   margin:40px 0px;
 }
 .title{
@@ -191,5 +195,3 @@ a{
   
   
 }
-
-
