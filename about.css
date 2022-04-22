@@ -1,14 +1,5 @@
-.about-container{
-  width:100vw;
-  margin:-8px;
-  height:auto;
-  display:flex;
-  align-items:center;
-  flex-direction:column;
-    z-index:-2;
-}
 .what-i-do{
-  width:50vw;
+  width:100vw;
   height:auto;
   display:flex;
   justify-content:center;
@@ -17,20 +8,32 @@
   flex-wrap:wrap;
    animation:fadeInUp;
  animation-duration:2s;
+
 }
 .what-i-do-item{
   height:100%;
-  width:auto;
-  margin:20px 20px;
+  width:330px;
+  margin:20px 10px;
   display:flex;
   justify-content:center;
   align-items:center;
   text-align:center;
   flex-direction:column;
 }
+.what-i-do-item > titleandicon{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-direction:row;
+}
 .what-i-do-item-title{
   font-size:25px;
   color:#242424;
+}
+.what-i-do-item-description{
+  color:grey;
+
 }
 .fa-solid{
   font-size:60px;
@@ -48,12 +51,11 @@
 @media only screen and (max-width: 1000px) {
  
 
- .about-container{
-   display:flex;
-  justify-content:center;
-  align-items:center;
+.what-i-do-item{
+  flex-direction:column;
 }
 
 }
+
 
 
