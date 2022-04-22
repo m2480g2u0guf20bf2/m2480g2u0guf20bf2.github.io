@@ -5,6 +5,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 
 
+
 body{
    background:#f5f5f5;
     font-family:DM Sans;
@@ -16,7 +17,16 @@ a{
   background:none;
   text-decoration:none;
 }
+hr{
+  width:5vw;
+  margin:20px;
+  animation:hr 2s 1;
+}
 
+@keyframes hr{
+  from{width:0px;}
+  to{width:5vw;}
+}
 
 .header-box{
   width:100vw;
@@ -62,6 +72,7 @@ a{
   color:#1e70ff;
   border:none;
    transition:0.3s;
+  text-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
 }
 .page-container{
   width:100vw;
@@ -95,12 +106,14 @@ a{
   color:#242424;
   animation:fadeInLeft;
   animation-duration:2s;
+      text-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .title2{
   font-size:50px;
   font-weight:bold;
   letter-spacing:1px;
   color:#242424;
+      text-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .description-p{
    font-size:20px;
@@ -141,7 +154,9 @@ bottom:0px;}
 
 .footer-icons{margin:0px 40px;}
 
-.social > i{color:#1e70ff;font-size:20px;margin:0px 15px;}
+.social > i{color:#1e70ff;font-size:20px;margin:0px 15px;transition:0.3s;}
+
+.social > i:hover{color:#242424;font-size:20px;margin:0px 15px;transition:0.3s;}
 
 
 
@@ -173,6 +188,7 @@ bottom:0px;}
   margin:-8px;
   justify-content:center;
   align-items:center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
  
 .header-button-group{
