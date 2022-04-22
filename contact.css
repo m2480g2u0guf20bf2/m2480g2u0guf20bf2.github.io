@@ -7,37 +7,30 @@
   color:#1e70ff;
   transition:0.3s;
 }
-#social-icon-github{
-     animation:fadeInUp;
- animation-duration:0.5s;
-   font-size:40px;
+#social-icon-github,#social-icon-twitter,#social-icon-discord,#social-icon-email{
+  color:#1e70ff;
+  transition:0.3s;
+  font-size:40px;
   color:#242424;
   margin:20px;
     transition:0.3s;
+}
+
+#social-icon-github{
+     animation:fadeInUp;
+ animation-duration:0.5s;
 }
 #social-icon-twitter{
      animation:fadeInUp;
  animation-duration:1s;
-   font-size:40px;
-  color:#242424;
-  margin:20px;
-    transition:0.3s;
 }
 #social-icon-discord{
      animation:fadeInUp;
  animation-duration:1.5s;
-   font-size:40px;
-  color:#242424;
-  margin:20px;
-    transition:0.3s;
 }
 #social-icon-email{
      animation:fadeInUp;
  animation-duration:2s;
-   font-size:40px;
-  color:#242424;
-  margin:20px;
-    transition:0.3s;
 }
 
 
