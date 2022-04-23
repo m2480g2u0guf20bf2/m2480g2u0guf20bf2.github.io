@@ -59,7 +59,7 @@ hr{
   text-align:right;
   height:78px;
   width:50vw;
-}
+ }
 .header-button{
   display:flex;
   justify-content:center;
@@ -200,6 +200,7 @@ bottom:0px;}
   text-align:center;
   height:70px;
   width:auto;
+
 }
   .header-button{
     background:none;
