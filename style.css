@@ -8,11 +8,12 @@ body{
 
 .background-vid{
   width:100vw;
-  height:auto;
-  z-index:-1;
+  height:100vh;
+  z-index:-20;
   position:absolute;
   margin:-8px;
   filter:brightness(50%);
+      object-fit:cover;
 }
 
 .lander-container{
@@ -109,13 +110,6 @@ body{
   width:100%;
 }
 
-.background-vid{
-  width:300vw;
-  z-index:-1;
-  position:absolute;
-  margin:-8px;
-  filter:brightness(50%);
-}
 
 }
 
