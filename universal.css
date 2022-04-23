@@ -42,6 +42,7 @@ hr{
     display: -webkit-flex;
   align-items:center;
    -webkit-justify-content:left;
+    justify-content:left;
    animation:bounceInLeft;
   animation-duration:1.5s;
 }
@@ -81,6 +82,7 @@ hr{
   display:flex;
   align-items:center;
   flex-direction:column;
+  justify-content:center;
     z-index:-2;
 }
 .section-box{
