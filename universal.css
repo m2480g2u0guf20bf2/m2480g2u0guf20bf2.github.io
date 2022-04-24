@@ -207,6 +207,9 @@ bottom:0px;}
     font-size:15px;
       width:90px;
   }
+  .header-button:hover{
+      text-shadow: 2px 2px 5px red;
+  }
   .section-box{
     display:flex;
   justify-content:center;
