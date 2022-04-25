@@ -45,7 +45,6 @@
    text-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
 }
 
-
 @media only screen and (max-width: 1000px) {
  
  
@@ -62,8 +61,10 @@
   margin:20px 0px;
    animation:fadeInUp;
  animation-duration:2s;
+     overflow-x: hidden;
 }
  
 
 }
+
 
