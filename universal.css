@@ -59,7 +59,6 @@ hr{
   text-align:right;
   height:78px;
   width:50vw;
-  animation:bounceInRight 2s 1;
  }
 .header-button{
   display:flex;
