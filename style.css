@@ -44,8 +44,6 @@ body{
   font-weight:bold;
   margin:-10px 0px;
   color:#1e70ff;
-  animation:flip 2s 1;
-  animation-delay:2s;
 }
 .job{
     font-size:30px;
