@@ -107,11 +107,22 @@
 
 .fa-comment-dots,.fa-lightbulb,.fa-paintbrush,.fa-flag-checkered{
   font-size:60px;
-  color:#1e70ff;
-  
-    
+  color:white;
+  background:#242424;
+  padding:20px;
+  width:70px;
+  height:70px;
+  border-radius:10000000000000000px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     transition:0.3s;
     
 }
+
+.fa-comment-dots:hover,.fa-lightbulb:hover,.fa-paintbrush:hover,.fa-flag-checkered:hover{
+  color:#1e70ff;
+  transition:0.3s;
+}
+
 
 .work-process-icon{
 
@@ -149,4 +160,3 @@
   margin:0px 50px;
   border-radius:10px;
 }
-
