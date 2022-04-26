@@ -33,19 +33,107 @@
 }
 .what-i-do-item-description{
   color:grey;
+  font-size:20px;
 
 }
-.fa-solid{
+.fa-mountain,.fa-building,.fa-user-check{
   font-size:60px;
   margin:10px;
   color:#1e70ff;
     transition:0.7s;
 }
-.fa-solid:hover{
- color:#242424;
-  transition:0.7s;
-  transform:rotate(20deg);
+
+
+
+
+
+
+
+.my-work-process{
+  width:100vw;
+  height:auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-wrap:wrap;
+   animation:fadeInUp;
+ animation-duration:2s;
+
 }
+.my-work-process-item{
+  height:300px;
+  width:300px;
+  margin:20px 10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-direction:column;
+
+}
+.work-process-p{
+  height:auto;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-direction:column;
+
+}
+
+.my-work-process-item-title{
+  font-size:25px;
+  width:100%;
+  color:#242424;
+    height:70px;
+    display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+
+}
+.my-work-process-item-description{
+  color:grey;
+  height:130px;
+  display:flex;
+  justify-content:center;
+  align-items:top;
+    font-size:20px;
+  text-align:center;
+
+}
+
+.fa-comment-dots,.fa-lightbulb,.fa-paintbrush,.fa-flag-checkered{
+  font-size:60px;
+  color:#1e70ff;
+  
+    
+    
+}
+
+.work-process-icon{
+
+    height:100px;
+    width:100%;
+     display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 1000px) {
@@ -61,5 +149,4 @@
   margin:0px 50px;
   border-radius:10px;
 }
-
 
