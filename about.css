@@ -55,6 +55,7 @@ width:100%;
 .my-work-process{
   width:100vw;
   height:auto;
+  margin:50px 0px;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -140,7 +141,8 @@ width:100%;
 }
 
 .fa-comment-dots:hover,.fa-lightbulb:hover,.fa-paintbrush:hover,.fa-flag-checkered:hover{
-  color:#1e70ff;
+  color:#242424;
+  background:white;
   transition:0.3s;
 }
 
