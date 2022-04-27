@@ -55,8 +55,8 @@
   align-items:center;
 }
 .form-cover{
-  height:20px;
-  background:white;
+  height:23px;
+  background:#fafafa;
   width:49vw;
   position:absolute;
   bottom:-32.5vh;
@@ -91,5 +91,3 @@
  
 
 }
-
-
