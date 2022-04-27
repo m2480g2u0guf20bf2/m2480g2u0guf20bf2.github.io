@@ -66,7 +66,7 @@ width:100%;
 }
 .my-work-process-item{
   height:300px;
-  width:300px;
+  width:250px;
   margin:20px 10px;
   display:flex;
   justify-content:center;
@@ -90,7 +90,7 @@ width:100%;
   font-size:25px;
   width:100%;
   color:#242424;
-    height:70px;
+    height:30%;
     display:flex;
   justify-content:center;
   align-items:center;
@@ -99,13 +99,24 @@ width:100%;
 }
 .my-work-process-item-description{
   color:grey;
-  height:130px;
+  height:40%;
   display:flex;
   justify-content:center;
   align-items:top;
     font-size:20px;
   text-align:center;
 
+}
+.fa-arrow-right{
+  color:grey;
+  font-size:30px;
+}
+.arrow-right-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+       width:70px;
+  height:300px;
 }
 
 .fa-comment-dots,.fa-lightbulb,.fa-paintbrush,.fa-flag-checkered{
@@ -129,7 +140,7 @@ width:100%;
 
 .work-process-icon{
 
-    height:100px;
+    height:30%;
     width:100%;
      display:flex;
   justify-content:center;
@@ -151,16 +162,27 @@ width:100%;
 
 
 @media only screen and (max-width: 1000px) {
- 
+  
+ .fa-arrow-right{
+  color:transparent;
+ }
+ .arrow-right-container{
+  display:none;
+}
 
 .what-i-do-item{
   flex-direction:column;
   width:380px;
 }
 
-}
+
 .about-img{
   width:20vw;
   margin:0px 50px;
   border-radius:10px;
+}
+.what-i-do-item{
+  height:250px;
+  
+}
 }
