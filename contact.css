@@ -40,10 +40,35 @@
   border:none;
   border-radius:20px;
   margin:20px 0px;
+        overflow-x: hidden;
    animation:fadeInUp;
  animation-duration:2s;
+
    text-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
 }
+.form-cover-container{
+  width:100vw;
+  text-align:center;
+  background:red;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.form-cover{
+  height:20px;
+  background:white;
+  width:49vw;
+  position:absolute;
+  bottom:-32.5vh;
+}
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1000px) {
  
