@@ -53,11 +53,11 @@ body{
   margin-top:20px;
 }
 .left-section-button{
-  background:#1e70ff;
+  background:transparent;
+  border:2px solid white;
   padding:15px 20px;
   border-radius:10px;
   width:100px;
-  border:none;
   font-size:15px;
   color:white;
   font-weight:bold;
@@ -75,12 +75,13 @@ body{
   justify-content:left;
   align-items:center;
   width:100%;
+    transition:0.3s;
 }
 .left-section-button:hover{
   background:white;
+  transition:0.3s;
   color:#1e70ff;
-  transition:.3s;
-  text-align:center;
+  letter-spacing: 3px;
 }
 @media only screen and (max-width: 1000px) {
 
@@ -114,6 +115,7 @@ body{
 
 
 }
+
 
 
 
