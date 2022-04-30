@@ -40,10 +40,12 @@ body{
   flex-direction:column;
 }
 .name{
-   font-size:60px;
+   font-size:70px;
   font-weight:bold;
   margin:-10px 0px;
   color:#1e70ff;
+  letter-spacing: 2px;
+  
 }
 .job{
     font-size:30px;
@@ -57,14 +59,14 @@ body{
   border:2px solid white;
   padding:15px 20px;
   border-radius:10px;
-  width:100px;
+  width:auto;
   font-size:15px;
   color:white;
   font-weight:bold;
     transition:.3s;
   display:flex;
   justify-content:center;
-  flex-direction:column;
+  flex-direction:row;
   align-items:center;
   text-align:center;
      letter-spacing: 2px;
@@ -81,7 +83,6 @@ body{
   background:white;
   transition:0.3s;
   color:#1e70ff;
-  letter-spacing: 3px;
 }
 @media only screen and (max-width: 1000px) {
 
@@ -115,7 +116,6 @@ body{
 
 
 }
-
 
 
 
