@@ -53,13 +53,20 @@ body{
   color:white;
   margin:30px 0px;
   margin-top:20px;
+  display:flex;
+  align-items:center;
 }
-.left-section-button{
+.fa-gamepad{
+  margin:0px 10px;
+}
+.btn-14 {
+  border: 2px solid #000;
+  z-index: 1;
   background:transparent;
   border:2px solid white;
-  padding:15px 20px;
   border-radius:10px;
-  width:auto;
+  width:130px;
+  height:50px;
   font-size:15px;
   color:white;
   font-weight:bold;
@@ -70,19 +77,38 @@ body{
   align-items:center;
   text-align:center;
      letter-spacing: 2px;
-
 }
+.btn-14:after {
+  position: absolute;
+  content: "";
+  height:50px;
+  right: 0;
+  left: 0;
+  width: 0px;
+  z-index: -1;
+  background: white;
+    border-radius:10px;
+  transition: all 0.3s ease;
+    border:0px solid white;
+  
+}
+.btn-14:hover {
+  color: #1e70ff;
+  
+}
+.btn-14:hover:after {
+  left: 0;
+  width: 130px;
+  border:2px solid white;
+}
+
+
 .left-section-button-container{
   display:flex;
   justify-content:left;
   align-items:center;
-  width:100%;
+  width:auto;
     transition:0.3s;
-}
-.left-section-button:hover{
-  background:white;
-  transition:0.3s;
-  color:#1e70ff;
 }
 @media only screen and (max-width: 1000px) {
 
@@ -116,7 +142,6 @@ body{
 
 
 }
-
 
 
 
