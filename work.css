@@ -44,6 +44,20 @@ li{
   filter:brightness(100%);
       transition:0.3s;
 }
+.more-work{
+  color:#242424;
+  letter-spacing:1px;
+  background:transparent;
+  border-radius:5px;
+  border:2px solid #242424;
+  padding:10px;
+    transition:0.3s;
+}
+.more-work:hover{
+  background:#242424;
+  color:white;
+  transition:0.3s;
+}
 
 @media only screen and (max-width: 1000px) {
 
