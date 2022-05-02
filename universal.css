@@ -17,15 +17,31 @@ a{
   background:none;
   text-decoration:none;
 }
+.hr-container{
+  width:100vw;
+  text-align:center;
+   display: flex;
+   justify-content:center;
+   align-items:center;
+}
 hr{
   width:5vw;
   margin:20px;
   animation:hr 2s 1;
 }
+.hr-long{
+  width:70vw;
+  margin:20px;
+  animation:hr-long 2s 1;
+}
 
 @keyframes hr{
   from{width:0px;}
   to{width:5vw;}
+}
+@keyframes hr-long{
+  from{width:0px;}
+  to{width:70vw;}
 }
 
 .header-box{
@@ -72,7 +88,6 @@ hr{
   color:#1e70ff;
   border:none;
    transition:2s;
-  text-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
    letter-spacing: 1px;
     
     
