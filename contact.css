@@ -8,7 +8,6 @@
   transition:0.3s;
 }
 #social-icon-github,#social-icon-twitter,#social-icon-discord,#social-icon-email{
-  color:#1e70ff;
   transition:0.3s;
   font-size:40px;
   color:#242424;
@@ -19,6 +18,7 @@
 #social-icon-github{
      animation:fadeInUp;
  animation-duration:0.5s;
+
 }
 #social-icon-twitter{
      animation:fadeInUp;
@@ -34,6 +34,83 @@
 }
 
 
+.reviews-container{
+  width:100vw;
+   display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-direction:column;
+  
+}
+.customer-reviews{
+  width:60vw;
+  height:auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  margin:;
+  flex-direction:column;
+}
+.testimonial-card{
+  width:1000px;
+  height:300px;
+  background:white;
+  display:flex;
+  justify-content:left;
+  align-items:center;
+  text-decoration:none;
+  text-align:left;
+  margin:40px 0px;
+  flex-direction:column;
+  border-radius:10px;
+  margin:20px 0px;
+  
+}
+.testimonial-card > span{
+   display:flex;
+   width:100%;
+  justify-content:left;
+  align-items:center;
+  text-decoration:none;
+  text-align:left;
+    flex-direction:column;
+}
+.testimonial-card-picture{
+  width:50px;
+  height:50px;
+  border-radius:10000000000000000px;
+  margin:20px;
+}
+.photo-container{
+  width:100%;
+  text-align:left;
+}
+.testimonial-card-name{
+  font-weight:bold;
+  width:100%;
+  text-align:left;
+  font-size:20px;
+}
+.testimonial-card-name > p{
+  
+margin:0px 20px;
+}
+
+.testimonial-card-p{
+  margin:0px 20px;
+}
+.testimonial-card-position{
+   width:100%;
+  text-align:left;
+font-size:15px;
+  font-style:italic;
+}
+.testimonial-card-position > p{
+margin:10px 20px;
+  
+}
 
 
 
@@ -47,5 +124,6 @@
 }
 
 }
+
 
 
