@@ -7,13 +7,13 @@
 				 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<link href="universal.css" rel="stylesheet">
+		<link href="file:///home/chronos/u-e0c85b26c3bbb9fb6a584342623323421a92b928/MyFiles/awesome%20studios%20freelance%20project/awes0me.dev/universal.css" rel="stylesheet">
 		<link href="contact.css" rel="stylesheet">
 		
 		
 				
 		
-	<link rel="shortcut icon" href="favicon.png">
+	<link rel="shortcut icon" href="file:///home/chronos/u-e0c85b26c3bbb9fb6a584342623323421a92b928/MyFiles/awesome%20studios%20freelance%20project/favicon.png">
 	
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 		
@@ -24,7 +24,7 @@
 
 <div class="header-box">
   
-<div class="header-favicon"><img src="favicon.png"></img></div>
+<div class="header-favicon"><img src="file:///home/chronos/u-e0c85b26c3bbb9fb6a584342623323421a92b928/MyFiles/awesome%20studios%20freelance%20project/favicon.png"></img></div>
   
   
   <div class="header-button-group">
@@ -80,6 +80,173 @@
 
 </div>
 
+
+
+
+<div class="form-box-container">
+
+
+<div class="form-box">
+            
+            
+            <div class="submitted-content"id="submitted-content">
+            <i class="fa-solid fa-check-to-slot"></i>
+            <div class="submitted-p">Your Form Has Been Successfully received!</div>
+            </div>
+            
+            
+            <div class="form-content"id="form-content">
+
+           
+          
+           
+
+ 
+                
+               
+        
+            <div class="form-top-section">
+              
+              <div class="form-top-section-question"style="width:40%;">
+             <div class="top-section-label">Name</div>
+             <input type="text" class="name" name="name" placeholder="enter here"id="name"><br>
+</div>
+             
+             
+                   <div class="form-top-section-question"style="width:60%;">
+           <div class="top-section-label">Email</div>
+             <input type="text" class="email" name="email" placeholder="enter here"id="email"><br>
+         </div>
+             </div>
+        
+          
+         
+         
+                   <div class="form-bottom-section">
+                
+                  <div class="form-bottom-section-question">
+                <div class="bottom-section-label">Short description of the commission</div>
+         
+          <textarea id="message" name="message"class="message" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+         </div>
+          
+            
+            
+            <div class="submit-b-container">
+             <input type="submit" value="Submit"id="submit-b"onclick="sendMessage();">
+             
+             </div>
+       
+  
+
+  <script>
+    function sendMessage() {
+      var name= document.getElementById("name").value;
+      
+var email= document.getElementById("email").value;
+var message= document.getElementById("message").value;
+      const request = new XMLHttpRequest();
+request.open("POST", "https://discord.com/api/webhooks/972836891932127272/jpO-ch4JqzS8GAnM3R-vZ0f99yCN-ihPkduJQRT4Y6r01dtsLYyFbCImHjsuk__40C2R");
+request.setRequestHeader('Content-type', 'application/json');
+const params = {
+  "content": `This is a message`,
+  "embeds": [
+    {
+      "type": "rich",
+      "title": `Form Result from awes0mestudios.com/contact`,
+      "description": `Form`,
+      "fields": [
+        {
+          "name": `Name`,
+          "value": `${name}`
+        },
+        {
+          "name": `Email`,
+          "value": `${email}`
+        },
+        {
+          "name": `Message`,
+          "value": `${message}`
+        }
+      ]
+    }
+  ]
+}
+
+
+var email = document.getElementById('email');
+    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+    if (!filter.test(email.value)) {
+      
+   
+      document.getElementById('submit-b').style.animation = 'shakeX 1s 1'
+    
+    email.focus;
+    return false;
+    
+    }
+ 
+    
+ 
+      
+        document.getElementById("name").value = name;
+  var x = "name";
+ 
+  if (name == "") {
+    
+    document.getElementById('submit-b').style.animation = 'shakeX 1s 1'
+    name.focus;
+    return false;
+    
+  
+}
+
+ document.getElementById("message").value = message;
+  var y = "message";
+ 
+  if (message == "") {
+    
+    document.getElementById('submit-b').style.animation = 'shakeX 1s 1'
+    message.focus;
+    return false;
+    
+  
+}
+
+    
+request.send(JSON.stringify(params));
+
+document.getElementById("form-content").style.display = "none";
+document.getElementById("submitted-content").style.display = "flex";
+
+    
+ 
+}
+   
+  </script>
+
+            
+            
+          </div>
+            </div>
+            
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="hr-container"><hr class="hr-long"></hr></div>
 <div class="reviews-container">
 
@@ -87,30 +254,32 @@
 
 
   
+
  
   <div class="customer-reviews">
   
   
   <div class="testimonial-card"><span>
-<div class="photo-container"><img src="https://tr.rbxcdn.com/af0181de121c31643578d08fe3d62c30/150/150/AvatarHeadshot/Png"class="testimonial-card-picture"></img></div>
-<div class="testimonial-card-name"><p>Elon Musk</p></div>
-<div class="testimonial-card-position"><p>Game Developer</p></div>
-<div class="testimonial-card-p">"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah "</div>
+<div class="photo-container"><img src="https://doy2mn9upadnk.cloudfront.net/user_avatar/devforum.roblox.com/developer4lifee/45/2428212_2.png"class="testimonial-card-picture"></img></div>
+<div class="testimonial-card-name"><p>Developer4Lifee
+</p></div>
+<div class="testimonial-card-position"><p>Builder</p></div>
+<div class="testimonial-card-p"><p>"I love your terrain work! Also Awesome is amazing to work with and is all around a great guy."</p></div>
 </span></div>
 
 
  <div class="testimonial-card"><span>
-<div class="photo-container"><img src="https://tr.rbxcdn.com/af0181de121c31643578d08fe3d62c30/150/150/AvatarHeadshot/Png"class="testimonial-card-picture"></img></div>
-<div class="testimonial-card-name"><p>Elon Musk</p></div>
-<div class="testimonial-card-position"><p>Game Developer</p></div>
-<div class="testimonial-card-p">"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah "</div>
+<div class="photo-container"><img src="https://doy2mn9upadnk.cloudfront.net/user_avatar/devforum.roblox.com/creeperman16487/45/2658060_2.png"class="testimonial-card-picture"></img></div>
+<div class="testimonial-card-name"><p>Creeperman16487</p></div>
+<div class="testimonial-card-position"><p>Game Designer</p></div>
+<div class="testimonial-card-p"><p>"Awes0meDev is a cool guy, I like working with him as he is very chill. 10/10 for his work and his character."</p></div>
 </span></div>
 
  <div class="testimonial-card"><span>
-<div class="photo-container"><img src="https://tr.rbxcdn.com/af0181de121c31643578d08fe3d62c30/150/150/AvatarHeadshot/Png"class="testimonial-card-picture"></img></div>
-<div class="testimonial-card-name"><p>Elon Musk</p></div>
-<div class="testimonial-card-position"><p>Game Developer</p></div>
-<div class="testimonial-card-p">"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah "</div>
+<div class="photo-container"><img src="https://tr.rbxcdn.com/2326f87194952f77d1775f082999e357/150/150/AvatarHeadshot/Png"class="testimonial-card-picture"></img></div>
+<div class="testimonial-card-name"><p>ShieldDevs</p></div>
+<div class="testimonial-card-position"><p>Programmer</p></div>
+<div class="testimonial-card-p"><p>"Really good building/terrain editing. Fast, respectful, and a kind person, which are the best thing a person can have! I recommend him to everyone who wants an advanced builder or a terrain builder."</p></div>
 </span></div>
       
   </div>
@@ -126,5 +295,4 @@
 
 	</body>
 </html>
-
 
